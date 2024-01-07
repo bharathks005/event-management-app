@@ -33,7 +33,8 @@ export default async function createUser(prevState: State, formData: FormData): 
 			phone: parse.data.phone,
 			notes: parse.data.notes,
 		}	
-		const client = await MongoClient.connect('mongodb+srv://test-user:test123@cluster0.vqryrsx.mongodb.net/next-js');
+		const dbUrl = process.env.DATABASE_URL as string;
+		const client = await MongoClient.connect(dbUrl);
 		const db = client.db();
 		const meetupCollections = db.collection('query');
 		await meetupCollections.insertOne({
