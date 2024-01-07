@@ -13,9 +13,9 @@ export default function Home() {
 			<Navbar />
 		</header>
 		<main>
-			<div className="hero-banner">
+			<div className="hero-banner" id="home">
 				<div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-					<img className="object-cover rounded-t-lg md:h-auto md:rounded-none md:rounded-s-lg banner-image" src="https://flowbite.com/docs/images/blog/image-4.jpg" alt="" />
+					<img className="object-cover rounded-t-lg md:h-auto md:rounded-none md:rounded-s-lg banner-image" src="https://www.flowbite-react.com/images/blog/image-1.jpg" alt="" />
 					<div className="flex flex-col justify-between p-4 leading-normal">
 						<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white p-30">  End-to-end event planning</h5>
 						<p className="mb-3 font-normal text-gray-700 dark:text-gray-400 p-30">Empower your team with all the tools they need to streamline your event planning process—be it setting the event agenda, accepting sponsor proposals, addressing attendee questions, or even hosting rehearsals.</p>

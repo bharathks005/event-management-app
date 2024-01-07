@@ -4,7 +4,7 @@ import './nav.css';
 export default function Navbar() {
     return (
         <nav className="navigation">
-            <a href="/" className="brand-name">
+            <a href="#" className="brand-name">
                 Gaint Tech
             </a>
             <button className="hamburger">
@@ -26,7 +26,7 @@ export default function Navbar() {
                 className="navigation-menu">
                 <ul>
                     <li>
-                        <a href="/home">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li>
                         <a href="#services">Services</a>
